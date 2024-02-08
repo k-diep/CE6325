@@ -1,0 +1,128 @@
+Cin__VDD__hl__ACQ_1 {
+  measType Cin
+  pred {
+  } 
+  targets {
+    Cin__VDD__hl
+  } 
+  template Cin__VDD__hl__ACQ_1.t
+  test Cin__VDD__hl
+  when {1}
+} 
+Cin__VDD__lh__ACQ_1 {
+  measType Cin
+  pred {
+  } 
+  targets {
+    Cin__VDD__lh
+  } 
+  template Cin__VDD__lh__ACQ_1.t
+  test Cin__VDD__lh
+  when {1}
+} 
+Cin__VSS__hl__ACQ_1 {
+  measType Cin
+  pred {
+  } 
+  targets {
+    Cin__VSS__hl
+  } 
+  template Cin__VSS__hl__ACQ_1.t
+  test Cin__VSS__hl
+  when {1}
+} 
+Cin__VSS__lh__ACQ_1 {
+  measType Cin
+  pred {
+  } 
+  targets {
+    Cin__VSS__lh
+  } 
+  template Cin__VSS__lh__ACQ_1.t
+  test Cin__VSS__lh
+  when {1}
+} 
+delay__A__hl__OUT__lh__ACQ_1 {
+  measType delay
+  pred {
+  } 
+  targets {
+    delay__A__hl__OUT__lh
+    Cin__A__hl
+    Tout__OUT__lh
+    energy1__A__hl__OUT__lh__VDD
+    energy__A__hl__OUT__lh
+    leakage_power1__VDD
+    leakage_power2__VDD
+    cap_energy__OUT__lh
+  } 
+  template delay__A__hl__OUT__lh__ACQ_1.t
+  test delay__A__hl__OUT__lh
+  when {1}
+} 
+delay__A__lh__OUT__hl__ACQ_1 {
+  measType delay
+  pred {
+  } 
+  targets {
+    delay__A__lh__OUT__hl
+    Cin__A__lh
+    Tout__OUT__hl
+    energy1__A__lh__OUT__hl__VDD
+    energy__A__lh__OUT__hl
+    leakage_power1__VDD
+    leakage_power2__VDD
+    cap_energy__OUT__hl
+  } 
+  template delay__A__lh__OUT__hl__ACQ_1.t
+  test delay__A__lh__OUT__hl
+  when {1}
+} 
+delay__B__hl__OUT__lh__ACQ_1 {
+  measType delay
+  pred {
+  } 
+  targets {
+    delay__B__hl__OUT__lh
+    Cin__B__hl
+    Tout__OUT__lh
+    energy1__B__hl__OUT__lh__VDD
+    energy__B__hl__OUT__lh
+    leakage_power1__VDD
+    leakage_power2__VDD
+    cap_energy__OUT__lh
+  } 
+  template delay__B__hl__OUT__lh__ACQ_1.t
+  test delay__B__hl__OUT__lh
+  when {1}
+} 
+delay__B__lh__OUT__hl__ACQ_1 {
+  measType delay
+  pred {
+  } 
+  targets {
+    delay__B__lh__OUT__hl
+    Cin__B__lh
+    Tout__OUT__hl
+    energy1__B__lh__OUT__hl__VDD
+    energy__B__lh__OUT__hl
+    leakage_power1__VDD
+    leakage_power2__VDD
+    cap_energy__OUT__hl
+  } 
+  template delay__B__lh__OUT__hl__ACQ_1.t
+  test delay__B__lh__OUT__hl
+  when {1}
+} 
+leakage_power__ACQ_1 {
+  measType leakage_power
+  pred {
+  } 
+  targets {
+    leakage_power
+  } 
+  template leakage_power__ACQ_1.t
+  test leakage_power
+  when {1}
+} 
+

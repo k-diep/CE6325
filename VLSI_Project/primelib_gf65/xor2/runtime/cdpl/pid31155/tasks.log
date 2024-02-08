@@ -1,0 +1,25 @@
+# Legend: N(newborn) R(running) F(failed) K(killed) C(complete)
+C leakage_power__ACQ_1 of xor2 T0 W1
+C Cin__VSS__hl__ACQ_1 of xor2 T1 W1
+C Cin__VSS__lh__ACQ_1 of xor2 T2 W1
+C delay__A__hl__OUT__hl__ACQ_1 of xor2 T3 W1
+C delay__A__hl__OUT__lh__ACQ_1 of xor2 T4 W1
+C delay__A__lh__OUT__hl__ACQ_1 of xor2 T5 W1
+C delay__A__lh__OUT__lh__ACQ_1 of xor2 T6 W1
+C delay__B__hl__OUT__hl__ACQ_1 of xor2 T7 W1
+C delay__B__hl__OUT__lh__ACQ_1 of xor2 T8 W1
+C delay__B__lh__OUT__hl__ACQ_1 of xor2 T9 W1
+C delay__B__lh__OUT__lh__ACQ_1 of xor2 T10 W1
+C Cin__VDD__hl__ACQ_1 of xor2 T11 W1
+C Cin__VDD__lh__ACQ_1 of xor2 T12 W1
+C delay__B__lh__OUT__hl__ACQ_1 of nand3 T13 W2
+C delay__B__hl__OUT__lh__ACQ_1 of nand3 T14 W2
+C leakage_power__ACQ_1 of nand3 T15 W2
+C delay__C__lh__OUT__hl__ACQ_1 of nand3 T16 W2
+C delay__C__hl__OUT__lh__ACQ_1 of nand3 T17 W2
+C Cin__VSS__lh__ACQ_1 of nand3 T18 W2
+C Cin__VSS__hl__ACQ_1 of nand3 T19 W2
+C delay__A__lh__OUT__hl__ACQ_1 of nand3 T20 W2
+C delay__A__hl__OUT__lh__ACQ_1 of nand3 T21 W2
+C Cin__VDD__lh__ACQ_1 of nand3 T22 W2
+C Cin__VDD__hl__ACQ_1 of nand3 T23 W2

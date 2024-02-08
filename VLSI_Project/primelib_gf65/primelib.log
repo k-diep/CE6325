@@ -1,0 +1,625 @@
+----------------------------------------------------------------------
+PrimeLib version T-2022.03-SP1 (Malibu 2)
+Build date: Apr 12, 2022 13:01:04
+Path: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
+Host: engnx05a.utdallas.edu, User: ktd170030, PID: 31155 (PPID: 30842)
+CPU: 32 x 3693 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
+Memory: 257 GB RAM (128.6 GB free), 4 GB Swap (2.0 GB free)
+System load average: 1.68, 1.95, 1.98 (20493 processes)
+Directory: /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65
+Malibu mode 2 activated
+Thu Oct 26 21:58:31 2023: Establishing connection to license server
+Thu Oct 26 21:58:31 2023: Testing server connection using feature PrimeLib_CHAR
+Thu Oct 26 21:58:31 2023: License server connection established
+Thu Oct 26 21:58:32 2023: Checked out license FEATURE PrimeLib_CHAR v2022.12 on PORT 1700@engdmv.utdallas.edu
+Command-line: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
+================================================
+Thu Oct 26 21:59:06 CDT 2023: Begin create stage
+The char directory is /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/NOR2
+Thu Oct 26 21:59:06 CDT 2023: Done create stage (Elapsed: 0 seconds | 0.00 hours  Memory: 755.23MB)
+===================================================================================================
+================================================
+Fri Oct 27 12:29:35 CDT 2023: Begin create stage
+The char directory is /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nand2
+Fri Oct 27 12:29:35 CDT 2023: Done create stage (Elapsed: 0 seconds | 0.00 hours  Memory: 755.23MB)
+===================================================================================================
+.  ..  NOR2  nand2  primelib.log
+The char directory is /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nand2
+Warning: Setting of obsolete parameter 'model_ecsm_cin' is ignored. (PAR-27)
+Warning: 2003.12 is no longer supported as a valid value for liberty_flavor. Setting it to 2007.03.
+===================================================
+Fri Oct 27 12:54:46 CDT 2023: Begin configure stage
+Optimizing dispatch of 1 cells for efficiency
+Reading instance file for cell nand2
+Warning: Port VSS in cell nand2 has no associated function
+Warning: Port VDD in cell nand2 has no associated function
+Generating timing tests.
+Generating power tests.
+Generating template at Fri Oct 27 12:54:46 2023 
+Done generating template at Fri Oct 27 12:54:46 2023
+Generate Templates: Maximum virtual memory size: 764.617 MB
+Cell nand2 configured for characterization.
+Fri Oct 27 12:54:46 CDT 2023: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 764.62MB)
+======================================================================================================
+======================================================
+Fri Oct 27 12:54:59 CDT 2023: Begin characterize stage
+Simulator used is hspice HSPICE O-2018.09-2
+Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
+[CDPL] Initialized with 1 standalone slot
+[CDPL] Master initialized (0 seconds)
+Start generating characterization tasks
+Fri Oct 27 12:54:59 2023: Checked out license FEATURE PrimeLib_CORE v2022.12(1) on PORT 1700@engdmv.utdallas.edu
+Fri Oct 27 12:54:59 2023: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+Fri Oct 27 12:54:59 2023: Checked out license FEATURE PrimeLib_SIM_CORE v2022.12(1) on PORT 1700@engdmv.utdallas.edu
+Fri Oct 27 12:54:59 2023: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+Library has standard-cells
+nand2: generated 9 tasks (9 total)
+Using 1 standalone slots
+[CDPL] Tasks: 0/9, (0.0%, 0 Cached, 0 Failed); Active Workers: 0, Pending Workers: 1, Elapsed: 0m00s
+[CDPL] Tasks: 1/9, (11.1%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m10s
+[CDPL] Tasks: 2/9, (22.2%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m20s
+[CDPL] Tasks: 4/9, (44.4%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m30s
+[CDPL] Tasks: 5/9, (55.6%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m40s
+[CDPL] Tasks: 7/9, (77.8%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m50s
+[CDPL] Tasks: 8/9, (88.9%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m00s
+[CDPL] Tasks: 9/9, (100.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m10s
+Long task: nand2::delay__B__lh__OUT__hl__ACQ_1 10.00 seconds
+[CDPL] Summary: 
+  All tasks finished successfully.
+Fri Oct 27 12:56:19 2023: Released license FEATURE PrimeLib_CORE(all)
+Fri Oct 27 12:56:19 2023: Released license FEATURE PrimeLib_SIM_CORE(all)
+Peak worker count: 1
+Fri Oct 27 12:56:19 CDT 2023: Done characterize stage (Elapsed: 80 seconds | 0.02 hours  Memory: 1052.66MB)
+===========================================================================================================
+===============================================
+Fri Oct 27 13:02:28 CDT 2023: Begin model stage
+Creating new libraries.
+Warning: ground supply has not been properly defined
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0}
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0} nvolt {1.0 2.0}
+=================================================
+Fri Oct 27 13:02:28 CDT 2023: Begin write library
+Creating Liberty file "/home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nand2/models/liberty/cells/nand2_op_cond.lib".
+Fri Oct 27 13:02:28 CDT 2023: Done write library (Elapsed: 0 seconds | 0.00 hours  Memory: 1052.66MB)
+=====================================================================================================
+Merging cell level models...
+===============================================
+Fri Oct 27 13:02:28 CDT 2023: Begin merge stage
+Merging 1 cell models in /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nand2/models/liberty/cells
+Merged Liberty model created /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nand2/models/liberty/liberty_op_cond.lib.
+Fri Oct 27 13:02:28 CDT 2023: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1052.66MB)
+===================================================================================================
+Fri Oct 27 13:02:28 CDT 2023: Done model stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1052.66MB)
+===================================================================================================
+================================================
+Fri Oct 27 13:35:40 CDT 2023: Begin create stage
+The char directory is /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/AOI22
+[CDPL] Shutting down CDPL master.
+Fri Oct 27 13:35:41 CDT 2023: Done create stage (Elapsed: 1 seconds | 0.00 hours  Memory: 1052.64MB)
+====================================================================================================
+================================================
+Fri Oct 27 13:36:28 CDT 2023: Begin create stage
+The char directory is /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/OAI21
+Fri Oct 27 13:36:28 CDT 2023: Done create stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1052.64MB)
+====================================================================================================
+================================================
+Fri Oct 27 13:38:34 CDT 2023: Begin create stage
+The char directory is /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nor2
+Fri Oct 27 13:38:34 CDT 2023: Done create stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1052.64MB)
+====================================================================================================
+================================================
+Fri Oct 27 13:38:36 CDT 2023: Begin create stage
+The char directory is /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nor3
+Fri Oct 27 13:38:36 CDT 2023: Done create stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1052.64MB)
+====================================================================================================
+The char directory is /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/AOI22
+Warning: 2003.12 is no longer supported as a valid value for liberty_flavor. Setting it to 2007.03.
+===================================================
+Fri Oct 27 13:48:28 CDT 2023: Begin configure stage
+Optimizing dispatch of 1 cells for efficiency
+Reading instance file for cell AOI22
+Warning: Port VSS in cell AOI22 has no associated function
+Warning: Port VDD in cell AOI22 has no associated function
+Generating timing tests.
+Generating power tests.
+Generating template at Fri Oct 27 13:48:28 2023 
+Done generating template at Fri Oct 27 13:48:28 2023
+Generate Templates: Maximum virtual memory size: 1053.03 MB
+Cell AOI22 configured for characterization.
+Fri Oct 27 13:48:28 CDT 2023: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1053.03MB)
+=======================================================================================================
+======================================================
+Fri Oct 27 13:48:35 CDT 2023: Begin characterize stage
+Simulator used is hspice HSPICE O-2018.09-2
+Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
+[CDPL] Initialized with 1 standalone slot
+[CDPL] Master initialized (0 seconds)
+Start generating characterization tasks
+Fri Oct 27 13:48:35 2023: Checked out license FEATURE PrimeLib_CORE v2022.12(1) on PORT 1700@engdmv.utdallas.edu
+Fri Oct 27 13:48:35 2023: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+Fri Oct 27 13:48:35 2023: Checked out license FEATURE PrimeLib_SIM_CORE v2022.12(1) on PORT 1700@engdmv.utdallas.edu
+Fri Oct 27 13:48:35 2023: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+AOI22: generated 13 tasks (13 total)
+Using 1 standalone slots
+[CDPL] Tasks: 0/13, (0.0%, 0 Cached, 0 Failed); Active Workers: 0, Pending Workers: 1, Elapsed: 0m00s
+[CDPL] Tasks: 1/13, (7.7%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m10s
+[CDPL] Tasks: 2/13, (15.4%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m20s
+[CDPL] Tasks: 4/13, (30.8%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m30s
+[CDPL] Tasks: 5/13, (38.5%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m40s
+[CDPL] Tasks: 6/13, (46.2%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m50s
+[CDPL] Tasks: 8/13, (61.5%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m00s
+[CDPL] Tasks: 9/13, (69.2%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m10s
+[CDPL] Tasks: 11/13, (84.6%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m20s
+[CDPL] Tasks: 12/13, (92.3%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m30s
+[CDPL] Tasks: 13/13, (100.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m40s
+Long task: AOI22::delay__A__hl__OUT__lh__ACQ_1 10.00 seconds
+[CDPL] Summary: 
+  All tasks finished successfully.
+Fri Oct 27 13:50:25 2023: Released license FEATURE PrimeLib_CORE(all)
+Fri Oct 27 13:50:25 2023: Released license FEATURE PrimeLib_SIM_CORE(all)
+Peak worker count: 1
+Fri Oct 27 13:50:25 CDT 2023: Done characterize stage (Elapsed: 110 seconds | 0.03 hours  Memory: 1053.24MB)
+============================================================================================================
+===============================================
+Fri Oct 27 13:51:42 CDT 2023: Begin model stage
+Creating new libraries.
+Warning: ground supply has not been properly defined
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0}
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0} nvolt {1.0 2.0}
+=================================================
+Fri Oct 27 13:51:42 CDT 2023: Begin write library
+Creating Liberty file "/home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/AOI22/models/liberty/cells/AOI22_op_cond.lib".
+Fri Oct 27 13:51:42 CDT 2023: Done write library (Elapsed: 0 seconds | 0.00 hours  Memory: 1055.84MB)
+=====================================================================================================
+Merging cell level models...
+===============================================
+Fri Oct 27 13:51:42 CDT 2023: Begin merge stage
+Merging 1 cell models in /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/AOI22/models/liberty/cells
+Merged Liberty model created /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/AOI22/models/liberty/liberty_op_cond.lib.
+Fri Oct 27 13:51:42 CDT 2023: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1056.57MB)
+===================================================================================================
+Fri Oct 27 13:51:42 CDT 2023: Done model stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1056.57MB)
+===================================================================================================
+The char directory is /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/OAI21
+Warning: 2003.12 is no longer supported as a valid value for liberty_flavor. Setting it to 2007.03.
+Error:   unknown command 'CONFIGURE' (CMD-005)
+===================================================
+Fri Oct 27 13:57:13 CDT 2023: Begin configure stage
+Optimizing dispatch of 1 cells for efficiency
+Reading instance file for cell OAI21
+Warning: Port VSS in cell OAI21 has no associated function
+Warning: Port VDD in cell OAI21 has no associated function
+Generating timing tests.
+Generating power tests.
+Generating template at Fri Oct 27 13:57:13 2023 
+Done generating template at Fri Oct 27 13:57:13 2023
+Generate Templates: Maximum virtual memory size: 1058.3 MB
+Cell OAI21 configured for characterization.
+Fri Oct 27 13:57:13 CDT 2023: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1058.30MB)
+=======================================================================================================
+======================================================
+Fri Oct 27 13:57:18 CDT 2023: Begin characterize stage
+Simulator used is hspice HSPICE O-2018.09-2
+Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
+Start generating characterization tasks
+OAI21: generated 11 tasks (11 total)
+Using 1 standalone slots
+Fri Oct 27 13:57:19 2023: Checked out license FEATURE PrimeLib_CORE v2022.12(1) on PORT 1700@engdmv.utdallas.edu
+Fri Oct 27 13:57:19 2023: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+Fri Oct 27 13:57:19 2023: Checked out license FEATURE PrimeLib_SIM_CORE v2022.12(1) on PORT 1700@engdmv.utdallas.edu
+Fri Oct 27 13:57:19 2023: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+[CDPL] Tasks: 0/11, (0.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m00s
+[CDPL] Tasks: 1/11, (9.1%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m10s
+[CDPL] Tasks: 2/11, (18.2%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m20s
+[CDPL] Tasks: 4/11, (36.4%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m30s
+[CDPL] Tasks: 5/11, (45.5%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m40s
+[CDPL] Tasks: 7/11, (63.6%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m50s
+[CDPL] Tasks: 8/11, (72.7%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m00s
+[CDPL] Tasks: 9/11, (81.8%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m10s
+[CDPL] Tasks: 11/11, (100.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m20s
+Long task: OAI21::delay__B__lh__OUT__hl__ACQ_1 10.00 seconds
+[CDPL] Summary: 
+  All tasks finished successfully.
+Fri Oct 27 13:58:49 2023: Released license FEATURE PrimeLib_CORE(all)
+Fri Oct 27 13:58:49 2023: Released license FEATURE PrimeLib_SIM_CORE(all)
+Peak worker count: 1
+Fri Oct 27 13:58:49 CDT 2023: Done characterize stage (Elapsed: 91 seconds | 0.03 hours  Memory: 1058.43MB)
+===========================================================================================================
+The char directory is /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nor2
+Warning: 2003.12 is no longer supported as a valid value for liberty_flavor. Setting it to 2007.03.
+===================================================
+Fri Oct 27 14:03:07 CDT 2023: Begin configure stage
+Optimizing dispatch of 1 cells for efficiency
+Reading instance file for cell nor2
+Warning: Port VSS in cell nor2 has no associated function
+Warning: Port VDD in cell nor2 has no associated function
+Generating timing tests.
+Generating power tests.
+Generating template at Fri Oct 27 14:03:07 2023 
+Done generating template at Fri Oct 27 14:03:07 2023
+Generate Templates: Maximum virtual memory size: 1060.25 MB
+Cell nor2 configured for characterization.
+Fri Oct 27 14:03:07 CDT 2023: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1060.38MB)
+=======================================================================================================
+======================================================
+Fri Oct 27 14:03:11 CDT 2023: Begin characterize stage
+Simulator used is hspice HSPICE O-2018.09-2
+Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
+Start generating characterization tasks
+nor2: generated 9 tasks (9 total)
+Using 1 standalone slots
+Fri Oct 27 14:03:12 2023: Checked out license FEATURE PrimeLib_CORE v2022.12(1) on PORT 1700@engdmv.utdallas.edu
+Fri Oct 27 14:03:12 2023: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+Fri Oct 27 14:03:12 2023: Checked out license FEATURE PrimeLib_SIM_CORE v2022.12(1) on PORT 1700@engdmv.utdallas.edu
+Fri Oct 27 14:03:12 2023: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+[CDPL] Tasks: 0/9, (0.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m00s
+[CDPL] Tasks: 1/9, (11.1%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m10s
+[CDPL] Tasks: 2/9, (22.2%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m20s
+[CDPL] Tasks: 4/9, (44.4%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m30s
+[CDPL] Tasks: 5/9, (55.6%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m40s
+[CDPL] Tasks: 7/9, (77.8%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m50s
+[CDPL] Tasks: 8/9, (88.9%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m00s
+[CDPL] Tasks: 9/9, (100.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m10s
+Long task: nor2::delay__B__lh__OUT__hl__ACQ_1 10.00 seconds
+[CDPL] Summary: 
+  All tasks finished successfully.
+Fri Oct 27 14:04:32 2023: Released license FEATURE PrimeLib_CORE(all)
+Fri Oct 27 14:04:32 2023: Released license FEATURE PrimeLib_SIM_CORE(all)
+Peak worker count: 1
+Fri Oct 27 14:04:32 CDT 2023: Done characterize stage (Elapsed: 81 seconds | 0.02 hours  Memory: 1060.54MB)
+===========================================================================================================
+===============================================
+Fri Oct 27 14:04:40 CDT 2023: Begin model stage
+Creating new libraries.
+Warning: ground supply has not been properly defined
+Merging cell level models...
+===============================================
+Fri Oct 27 14:04:40 CDT 2023: Begin merge stage
+Merging 1 cell models in /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nor2/models/liberty/cells
+Error:   Model results file /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nor2/models/liberty/cells/nor2_op_cond_op_cond.lib is missing.  File covers cells: nor2 (SMSC-87)
+Merged Liberty model created /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nor2/models/liberty/liberty_op_cond.lib.
+Fri Oct 27 14:04:58 CDT 2023: Done merge stage (Elapsed: 18 seconds | 0.01 hours  Memory: 1062.11MB)
+====================================================================================================
+Fri Oct 27 14:04:58 CDT 2023: Done model stage (Elapsed: 18 seconds | 0.01 hours  Memory: 1062.11MB)
+====================================================================================================
+The char directory is /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/OAI21
+Warning: 2003.12 is no longer supported as a valid value for liberty_flavor. Setting it to 2007.03.
+Loading /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/OAI21/etc/cell.stat.gz
+===================================================
+Fri Oct 27 14:05:40 CDT 2023: Begin configure stage
+Optimizing dispatch of 1 cells for efficiency
+Reading instance file for cell OAI21
+Warning: Port VSS in cell OAI21 has no associated function
+Warning: Port VDD in cell OAI21 has no associated function
+Generating timing tests.
+Generating power tests.
+Generating template at Fri Oct 27 14:05:40 2023 
+Done generating template at Fri Oct 27 14:05:40 2023
+Generate Templates: Maximum virtual memory size: 1064.57 MB
+Cell OAI21 configured for characterization.
+Fri Oct 27 14:05:40 CDT 2023: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1064.71MB)
+=======================================================================================================
+======================================================
+Fri Oct 27 14:05:42 CDT 2023: Begin characterize stage
+Simulator used is hspice HSPICE O-2018.09-2
+Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
+Start generating characterization tasks
+OAI21: generated 11 tasks (11 total)
+Using 1 standalone slots
+Fri Oct 27 14:05:43 2023: Checked out license FEATURE PrimeLib_CORE v2022.12(1) on PORT 1700@engdmv.utdallas.edu
+Fri Oct 27 14:05:43 2023: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+Fri Oct 27 14:05:43 2023: Checked out license FEATURE PrimeLib_SIM_CORE v2022.12(1) on PORT 1700@engdmv.utdallas.edu
+Fri Oct 27 14:05:43 2023: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+[CDPL] Tasks: 0/11, (0.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m00s
+[CDPL] Tasks: 1/11, (9.1%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m10s
+[CDPL] Tasks: 2/11, (18.2%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m20s
+[CDPL] Tasks: 4/11, (36.4%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m30s
+[CDPL] Tasks: 5/11, (45.5%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m40s
+[CDPL] Tasks: 7/11, (63.6%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m50s
+[CDPL] Tasks: 8/11, (72.7%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m00s
+[CDPL] Tasks: 9/11, (81.8%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m10s
+[CDPL] Tasks: 11/11, (100.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m20s
+Long task: OAI21::delay__B__lh__OUT__hl__ACQ_1 10.00 seconds
+[CDPL] Summary: 
+  All tasks finished successfully.
+Fri Oct 27 14:07:13 2023: Released license FEATURE PrimeLib_CORE(all)
+Fri Oct 27 14:07:13 2023: Released license FEATURE PrimeLib_SIM_CORE(all)
+Peak worker count: 1
+Fri Oct 27 14:07:13 CDT 2023: Done characterize stage (Elapsed: 91 seconds | 0.03 hours  Memory: 1064.87MB)
+===========================================================================================================
+===============================================
+Fri Oct 27 14:07:15 CDT 2023: Begin model stage
+Creating new libraries.
+Warning: ground supply has not been properly defined
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0}
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0} nvolt {1.0 2.0}
+=================================================
+Fri Oct 27 14:07:15 CDT 2023: Begin write library
+Creating Liberty file "/home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/OAI21/models/liberty/cells/OAI21_op_cond.lib".
+Fri Oct 27 14:07:15 CDT 2023: Done write library (Elapsed: 0 seconds | 0.00 hours  Memory: 1067.26MB)
+=====================================================================================================
+Merging cell level models...
+===============================================
+Fri Oct 27 14:07:15 CDT 2023: Begin merge stage
+Merging 1 cell models in /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/OAI21/models/liberty/cells
+Merged Liberty model created /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/OAI21/models/liberty/liberty_op_cond.lib.
+Fri Oct 27 14:07:15 CDT 2023: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1068.05MB)
+===================================================================================================
+Fri Oct 27 14:07:15 CDT 2023: Done model stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1068.05MB)
+===================================================================================================
+The char directory is /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nor2
+Warning: 2003.12 is no longer supported as a valid value for liberty_flavor. Setting it to 2007.03.
+Loading /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nor2/etc/cell.stat.gz
+===================================================
+Fri Oct 27 14:07:34 CDT 2023: Begin configure stage
+Optimizing dispatch of 1 cells for efficiency
+Reading instance file for cell nor2
+Warning: Port VSS in cell nor2 has no associated function
+Warning: Port VDD in cell nor2 has no associated function
+Generating timing tests.
+Generating power tests.
+Generating template at Fri Oct 27 14:07:34 2023 
+Done generating template at Fri Oct 27 14:07:34 2023
+Generate Templates: Maximum virtual memory size: 1068.45 MB
+Cell nor2 configured for characterization.
+Fri Oct 27 14:07:34 CDT 2023: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1068.45MB)
+=======================================================================================================
+======================================================
+Fri Oct 27 14:08:29 CDT 2023: Begin characterize stage
+Simulator used is hspice HSPICE O-2018.09-2
+Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
+Start generating characterization tasks
+nor2: generated 9 tasks (9 total)
+Using 1 standalone slots
+Fri Oct 27 14:08:29 2023: Checked out license FEATURE PrimeLib_CORE v2022.12(1) on PORT 1700@engdmv.utdallas.edu
+Fri Oct 27 14:08:29 2023: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+Fri Oct 27 14:08:29 2023: Checked out license FEATURE PrimeLib_SIM_CORE v2022.12(1) on PORT 1700@engdmv.utdallas.edu
+Fri Oct 27 14:08:29 2023: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+[CDPL] Tasks: 0/9, (0.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m00s
+[CDPL] Tasks: 1/9, (11.1%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m10s
+[CDPL] Tasks: 2/9, (22.2%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m20s
+[CDPL] Tasks: 4/9, (44.4%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m30s
+[CDPL] Tasks: 5/9, (55.6%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m40s
+[CDPL] Tasks: 7/9, (77.8%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m50s
+[CDPL] Tasks: 8/9, (88.9%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m00s
+[CDPL] Tasks: 9/9, (100.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m10s
+Long task: nor2::delay__B__lh__OUT__hl__ACQ_1 10.00 seconds
+[CDPL] Summary: 
+  All tasks finished successfully.
+Fri Oct 27 14:09:49 2023: Released license FEATURE PrimeLib_CORE(all)
+Fri Oct 27 14:09:49 2023: Released license FEATURE PrimeLib_SIM_CORE(all)
+Peak worker count: 1
+Fri Oct 27 14:09:49 CDT 2023: Done characterize stage (Elapsed: 80 seconds | 0.02 hours  Memory: 1068.76MB)
+===========================================================================================================
+===============================================
+Fri Oct 27 14:09:52 CDT 2023: Begin model stage
+Creating new libraries.
+Warning: ground supply has not been properly defined
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0}
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0} nvolt {1.0 2.0}
+=================================================
+Fri Oct 27 14:09:52 CDT 2023: Begin write library
+Creating Liberty file "/home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nor2/models/liberty/cells/nor2_op_cond.lib".
+Fri Oct 27 14:09:52 CDT 2023: Done write library (Elapsed: 0 seconds | 0.00 hours  Memory: 1070.77MB)
+=====================================================================================================
+Merging cell level models...
+===============================================
+Fri Oct 27 14:09:52 CDT 2023: Begin merge stage
+Merging 1 cell models in /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nor2/models/liberty/cells
+Merged Liberty model created /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nor2/models/liberty/liberty_op_cond.lib.
+Fri Oct 27 14:09:52 CDT 2023: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1071.58MB)
+===================================================================================================
+Fri Oct 27 14:09:52 CDT 2023: Done model stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1071.58MB)
+===================================================================================================
+The char directory is /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nor3
+Warning: 2003.12 is no longer supported as a valid value for liberty_flavor. Setting it to 2007.03.
+===================================================
+Fri Oct 27 14:14:10 CDT 2023: Begin configure stage
+Optimizing dispatch of 1 cells for efficiency
+Reading instance file for cell nor3
+Warning: Port VSS in cell nor3 has no associated function
+Warning: Port VDD in cell nor3 has no associated function
+Generating timing tests.
+Generating power tests.
+Generating template at Fri Oct 27 14:14:10 2023 
+Done generating template at Fri Oct 27 14:14:10 2023
+Generate Templates: Maximum virtual memory size: 1072.85 MB
+Cell nor3 configured for characterization.
+Fri Oct 27 14:14:10 CDT 2023: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1072.85MB)
+=======================================================================================================
+======================================================
+Fri Oct 27 14:14:15 CDT 2023: Begin characterize stage
+Simulator used is hspice HSPICE O-2018.09-2
+Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
+Start generating characterization tasks
+nor3: generated 11 tasks (11 total)
+Using 1 standalone slots
+Fri Oct 27 14:14:16 2023: Checked out license FEATURE PrimeLib_CORE v2022.12(1) on PORT 1700@engdmv.utdallas.edu
+Fri Oct 27 14:14:16 2023: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+Fri Oct 27 14:14:16 2023: Checked out license FEATURE PrimeLib_SIM_CORE v2022.12(1) on PORT 1700@engdmv.utdallas.edu
+Fri Oct 27 14:14:16 2023: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+[CDPL] Tasks: 0/11, (0.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m00s
+[CDPL] Tasks: 1/11, (9.1%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m10s
+[CDPL] Tasks: 2/11, (18.2%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m20s
+[CDPL] Tasks: 4/11, (36.4%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m30s
+[CDPL] Tasks: 5/11, (45.5%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m40s
+[CDPL] Tasks: 7/11, (63.6%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m50s
+[CDPL] Tasks: 8/11, (72.7%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m00s
+[CDPL] Tasks: 10/11, (90.9%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m10s
+[CDPL] Tasks: 11/11, (100.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m20s
+Long task: nor3::delay__B__lh__OUT__hl__ACQ_1 10.00 seconds
+[CDPL] Summary: 
+  All tasks finished successfully.
+Fri Oct 27 14:15:46 2023: Released license FEATURE PrimeLib_CORE(all)
+Fri Oct 27 14:15:46 2023: Released license FEATURE PrimeLib_SIM_CORE(all)
+Peak worker count: 1
+Fri Oct 27 14:15:46 CDT 2023: Done characterize stage (Elapsed: 91 seconds | 0.03 hours  Memory: 1073.12MB)
+===========================================================================================================
+===============================================
+Fri Oct 27 14:15:49 CDT 2023: Begin model stage
+Creating new libraries.
+Warning: ground supply has not been properly defined
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0}
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0} nvolt {1.0 2.0}
+=================================================
+Fri Oct 27 14:15:49 CDT 2023: Begin write library
+Creating Liberty file "/home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nor3/models/liberty/cells/nor3_op_cond.lib".
+Fri Oct 27 14:15:49 CDT 2023: Done write library (Elapsed: 0 seconds | 0.00 hours  Memory: 1075.43MB)
+=====================================================================================================
+Merging cell level models...
+===============================================
+Fri Oct 27 14:15:49 CDT 2023: Begin merge stage
+Merging 1 cell models in /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nor3/models/liberty/cells
+Merged Liberty model created /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nor3/models/liberty/liberty_op_cond.lib.
+Fri Oct 27 14:15:49 CDT 2023: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1076.21MB)
+===================================================================================================
+Fri Oct 27 14:15:49 CDT 2023: Done model stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1076.21MB)
+===================================================================================================
+================================================
+Fri Oct 27 14:33:42 CDT 2023: Begin create stage
+The char directory is /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/xor2
+[CDPL] Shutting down CDPL master.
+Fri Oct 27 14:33:42 CDT 2023: Done create stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1076.19MB)
+====================================================================================================
+================================================
+Fri Oct 27 14:33:55 CDT 2023: Begin create stage
+The char directory is /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nand3
+Fri Oct 27 14:33:55 CDT 2023: Done create stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1076.19MB)
+====================================================================================================
+================================================
+Fri Oct 27 14:34:00 CDT 2023: Begin create stage
+The char directory is /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/inv
+Fri Oct 27 14:34:00 CDT 2023: Done create stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1076.19MB)
+====================================================================================================
+The char directory is /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/xor2
+Warning: 2003.12 is no longer supported as a valid value for liberty_flavor. Setting it to 2007.03.
+===================================================
+Fri Oct 27 14:41:26 CDT 2023: Begin configure stage
+Optimizing dispatch of 1 cells for efficiency
+Reading instance file for cell xor2
+Warning: Port VSS in cell xor2 has no associated function
+Warning: Port VDD in cell xor2 has no associated function
+Generating timing tests.
+Generating power tests.
+Generating template at Fri Oct 27 14:41:26 2023 
+Done generating template at Fri Oct 27 14:41:26 2023
+Generate Templates: Maximum virtual memory size: 1077.51 MB
+Cell xor2 configured for characterization.
+Fri Oct 27 14:41:26 CDT 2023: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1077.51MB)
+=======================================================================================================
+======================================================
+Fri Oct 27 14:41:38 CDT 2023: Begin characterize stage
+Simulator used is hspice HSPICE O-2018.09-2
+Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
+[CDPL] Initialized with 1 standalone slot
+[CDPL] Master initialized (0 seconds)
+Start generating characterization tasks
+Fri Oct 27 14:41:39 2023: Checked out license FEATURE PrimeLib_CORE v2022.12(1) on PORT 1700@engdmv.utdallas.edu
+Fri Oct 27 14:41:39 2023: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+Fri Oct 27 14:41:39 2023: Checked out license FEATURE PrimeLib_SIM_CORE v2022.12(1) on PORT 1700@engdmv.utdallas.edu
+Fri Oct 27 14:41:39 2023: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+xor2: generated 13 tasks (13 total)
+Using 1 standalone slots
+[CDPL] Tasks: 0/13, (0.0%, 0 Cached, 0 Failed); Active Workers: 0, Pending Workers: 1, Elapsed: 0m00s
+[CDPL] Tasks: 1/13, (7.7%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m10s
+[CDPL] Tasks: 2/13, (15.4%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m20s
+[CDPL] Tasks: 4/13, (30.8%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m30s
+[CDPL] Tasks: 5/13, (38.5%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m40s
+[CDPL] Tasks: 6/13, (46.2%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m50s
+[CDPL] Tasks: 8/13, (61.5%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m00s
+[CDPL] Tasks: 9/13, (69.2%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m10s
+[CDPL] Tasks: 11/13, (84.6%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m20s
+[CDPL] Tasks: 12/13, (92.3%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m30s
+[CDPL] Tasks: 13/13, (100.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m40s
+Long task: xor2::delay__A__hl__OUT__hl__ACQ_1 10.00 seconds
+[CDPL] Summary: 
+  All tasks finished successfully.
+Fri Oct 27 14:43:29 2023: Released license FEATURE PrimeLib_CORE(all)
+Fri Oct 27 14:43:29 2023: Released license FEATURE PrimeLib_SIM_CORE(all)
+Peak worker count: 1
+Fri Oct 27 14:43:29 CDT 2023: Done characterize stage (Elapsed: 111 seconds | 0.03 hours  Memory: 1078.28MB)
+============================================================================================================
+===============================================
+Fri Oct 27 14:45:11 CDT 2023: Begin model stage
+Creating new libraries.
+Warning: ground supply has not been properly defined
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0}
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0} nvolt {1.0 2.0}
+=================================================
+Fri Oct 27 14:45:11 CDT 2023: Begin write library
+Creating Liberty file "/home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/xor2/models/liberty/cells/xor2_op_cond.lib".
+Fri Oct 27 14:45:12 CDT 2023: Done write library (Elapsed: 1 seconds | 0.00 hours  Memory: 1080.78MB)
+=====================================================================================================
+Merging cell level models...
+===============================================
+Fri Oct 27 14:45:12 CDT 2023: Begin merge stage
+Merging 1 cell models in /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/xor2/models/liberty/cells
+Merged Liberty model created /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/xor2/models/liberty/liberty_op_cond.lib.
+Fri Oct 27 14:45:12 CDT 2023: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1081.52MB)
+===================================================================================================
+Fri Oct 27 14:45:12 CDT 2023: Done model stage (Elapsed: 1 seconds | 0.00 hours  Memory: 1081.52MB)
+===================================================================================================
+The char directory is /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nand3
+Warning: 2003.12 is no longer supported as a valid value for liberty_flavor. Setting it to 2007.03.
+===================================================
+Fri Oct 27 15:03:01 CDT 2023: Begin configure stage
+Optimizing dispatch of 1 cells for efficiency
+Reading instance file for cell nand3
+Warning: Port VSS in cell nand3 has no associated function
+Warning: Port VDD in cell nand3 has no associated function
+Generating timing tests.
+Generating power tests.
+Generating template at Fri Oct 27 15:03:01 2023 
+Done generating template at Fri Oct 27 15:03:01 2023
+Generate Templates: Maximum virtual memory size: 1082.68 MB
+Cell nand3 configured for characterization.
+Fri Oct 27 15:03:01 CDT 2023: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1082.68MB)
+=======================================================================================================
+======================================================
+Fri Oct 27 15:03:06 CDT 2023: Begin characterize stage
+Simulator used is hspice HSPICE O-2018.09-2
+Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
+Start generating characterization tasks
+nand3: generated 11 tasks (11 total)
+Using 1 standalone slots
+Fri Oct 27 15:03:06 2023: Checked out license FEATURE PrimeLib_CORE v2022.12(1) on PORT 1700@engdmv.utdallas.edu
+Fri Oct 27 15:03:06 2023: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+Fri Oct 27 15:03:06 2023: Checked out license FEATURE PrimeLib_SIM_CORE v2022.12(1) on PORT 1700@engdmv.utdallas.edu
+Fri Oct 27 15:03:06 2023: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+[CDPL] Tasks: 0/11, (0.0%, 0 Cached, 0 Failed); Active Workers: 0, Pending Workers: 1, Elapsed: 0m00s
+[CDPL] Tasks: 1/11, (9.1%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m10s
+[CDPL] Tasks: 2/11, (18.2%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m20s
+[CDPL] Tasks: 4/11, (36.4%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m30s
+[CDPL] Tasks: 5/11, (45.5%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m40s
+[CDPL] Tasks: 6/11, (54.5%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m50s
+[CDPL] Tasks: 8/11, (72.7%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m00s
+[CDPL] Tasks: 9/11, (81.8%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m10s
+[CDPL] Tasks: 11/11, (100.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m20s
+Long task: nand3::delay__B__lh__OUT__hl__ACQ_1 10.00 seconds
+[CDPL] Summary: 
+  All tasks finished successfully.
+Fri Oct 27 15:04:36 2023: Released license FEATURE PrimeLib_CORE(all)
+Fri Oct 27 15:04:36 2023: Released license FEATURE PrimeLib_SIM_CORE(all)
+Peak worker count: 1
+Fri Oct 27 15:04:36 CDT 2023: Done characterize stage (Elapsed: 90 seconds | 0.03 hours  Memory: 1082.96MB)
+===========================================================================================================
+===============================================
+Fri Oct 27 15:04:48 CDT 2023: Begin model stage
+Creating new libraries.
+Warning: ground supply has not been properly defined
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0}
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0} nvolt {1.0 2.0}
+=================================================
+Fri Oct 27 15:04:49 CDT 2023: Begin write library
+Creating Liberty file "/home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nand3/models/liberty/cells/nand3_op_cond.lib".
+Fri Oct 27 15:04:49 CDT 2023: Done write library (Elapsed: 0 seconds | 0.00 hours  Memory: 1082.96MB)
+=====================================================================================================
+Merging cell level models...
+===============================================
+Fri Oct 27 15:04:49 CDT 2023: Begin merge stage
+Merging 1 cell models in /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nand3/models/liberty/cells
+Merged Liberty model created /home/012/k/kt/ktd170030/cad/gf65/primelib_gf65/nand3/models/liberty/liberty_op_cond.lib.
+Fri Oct 27 15:04:49 CDT 2023: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1083.80MB)
+===================================================================================================
+Fri Oct 27 15:04:49 CDT 2023: Done model stage (Elapsed: 1 seconds | 0.00 hours  Memory: 1083.80MB)
+===================================================================================================

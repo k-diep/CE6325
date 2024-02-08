@@ -1,0 +1,47 @@
+
+
+set_netlist_file [get_location]/netlists/DFF.pex.sp
+
+## 
+## Pin definitions.
+## 
+add_pin VSS default -inout
+add_pin Q default -output
+add_pin VDD default -inout
+add_pin CLK default -input
+add_pin D default -input
+add_pin R default -input
+
+
+##NOTE: Make sure the order of the ports in the next line match the order of ports in your DFF.pex.sp file
+set_subckt_ports { VSS Q VDD CLK D R } 
+
+
+
+## 
+## Cell function definition.
+## 
+
+
+
+
+## 
+## User-specified characterization and modeling configuration options.
+## 
+
+create_parameter cut_netlist
+set_config_opt -opcond __default__ -- cut_netlist DFF.pex.sp
+
+## add_user_stimulus
+
+
+##NOTE: If you design a positive edge triggered FF then make sure to delete the ! before the CLK in the following line 
+add_flop q Iq !CLK D -clear R 
+add_function Q q
+
+
+define_parameters DFF {
+set area 43.692982
+}
+
+

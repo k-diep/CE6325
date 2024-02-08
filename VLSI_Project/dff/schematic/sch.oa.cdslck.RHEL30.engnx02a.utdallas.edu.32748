@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      psp170030
+HostName                       engnx02a.utdallas.edu
+ProcessIdentifier              32748
+ProcessCreationTime_UTC        1699491875
+ProcessCreationTime_Readable   Wed Nov  8 19:04:35 2023 CST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/012/p/ps/psp170030/cad/gf65/proj4/dff/schematic/sch.oa.cdslck
+TimeEditLocked                 Sat Nov 11 19:30:48 2023 CST
